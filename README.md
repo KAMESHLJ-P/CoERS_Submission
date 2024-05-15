@@ -19,14 +19,13 @@ i) In **Distraction_Live_version1.ipynb** code you just need to change the addre
 
 ii) In **Drowsiness_Live_version2.ipynb** code the following needs to be taken care of 
 
-1) In Function Head_pose_Estimation it is the thresholds to look up, down, left and right
+1) In Function Head_pose_Estimation it is the thresholds to look up, down, left and right change them according to camera angle setup else try to set camera such that my default values work (Values based on experiment)
 
 2) In Function Face_detector the times is important for threshhold of yawning and microsleep - the values I set are based on literature for microsleep and yawning is convenience
 
-3) For eye_limit and close_limit the constants are to be changed based on experiments
+3) For eye_limit and close_limit the constants are to be changed based on experiments (Values chosen based on experiments)
 
-4) Finally only change the excel sheet name and annotated video and live feed video storage area address for proper differentiated storage
-
+4) Finally only change the excel sheet name and annotated video and live feed video storage area address for proper differentiated storage (Give appropriate naming to get proper access and efficient usage)
 
 iii) In **Logistic_Regression.ipynb** you need to change and experiment with features to know the most important features
 
