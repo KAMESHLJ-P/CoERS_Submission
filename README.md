@@ -15,9 +15,9 @@ Create more data and label them appropriately for better results.
 
 The changes that are to be done in each code file is mentioned on top of code file 
 
-In **Distraction_Live_version1.ipynb** code you just need to change the address of the annotated frames based video files that needs to be saved 
+i) In **Distraction_Live_version1.ipynb** code you just need to change the address of the annotated frames based video files that needs to be saved 
 
-In **Drowsiness_Live_version2.ipynb** code the following needs to be taken care of 
+ii) In **Drowsiness_Live_version2.ipynb** code the following needs to be taken care of 
 
 1) In Function Head_pose_Estimation it is the thresholds to look up, down, left and right
 
@@ -28,6 +28,6 @@ In **Drowsiness_Live_version2.ipynb** code the following needs to be taken care 
 4) Finally only change the excel sheet name and annotated video and live feed video storage area address for proper differentiated storage
 
 
-In **Logistic_Regression.ipynb** you need to change and experiment with features to know the most important features
+iii) In **Logistic_Regression.ipynb** you need to change and experiment with features to know the most important features
 
 
